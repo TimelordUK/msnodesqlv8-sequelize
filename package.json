@@ -1,0 +1,24 @@
+{
+  "name": "msnodesqlv8-sequelize",
+  "version": "1.0.0",
+  "description": "simple demo using sequelize with msnodesqlv8 and typecript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "app": "node ./dist/demo.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sequelize": "^6.21.3",
+    "msnodesqlv8": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.1",
+    "@types/sequelize": "^4.28.14",
+    "eslint": "^8.20.0",
+    "standard": "^17.0.0",
+    "typescript": "^4.7.4"
+  },
+  "author": "",
+  "license": "ISC"
+}
