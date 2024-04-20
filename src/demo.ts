@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize')
-const connectionString = 'Driver={ODBC Driver 18 for SQL Server}; Server=DESKTOP;UID=linux; PWD=linux; Database=node;TrustServerCertificate=yes;"'
+const connectionString = 'Driver={ODBC Driver 18 for SQL Server}; Server=DESKTOP-VIUCH90;UID=linux; PWD=linux; Database=node;Encrypt=no;'
 
 const sequelize = new Sequelize({
   dialect: 'mssql',
