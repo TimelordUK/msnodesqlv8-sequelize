@@ -79,3 +79,15 @@ runtest-win.exe
 runtest-macos
 /.idea/dictionaries/Stephen.xml
 /mochawesome-report/
+
+# Ignore build output
+dist/
+
+# Ignore node modules
+node_modules/
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env

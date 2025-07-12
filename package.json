@@ -9,13 +9,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "msnodesqlv8": "file:../../v8/node_modules/msnodesqlv8/msnodesqlv8-5.0.0.tgz",
+    "msnodesqlv8": "^5.1.0",
     "sequelize": "^6.37.7"
   },
   "devDependencies": {
-    "@types/node": "^24.0.7",
-    "@types/sequelize": "^4.28.20",
-    "eslint": "^9.30.0",
+    "@types/node": "^24.0.13",
+    "@types/sequelize": "^6.12.0",
+    "eslint": "^9.31.0",
     "standard": "^17.1.2",
     "typescript": "^5.8.3"
   },
