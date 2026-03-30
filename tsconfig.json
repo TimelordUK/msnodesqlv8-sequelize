@@ -8,6 +8,8 @@
     "sourceMap": true,
     "inlineSources": true,
     "pretty": true,
-    "outDir": "dist"
+    "rootDir": "./src",
+    "outDir": "dist",
+    "types": ["node"]
   }
 }
