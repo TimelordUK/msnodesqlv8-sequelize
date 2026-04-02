@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "msnodesqlv8": "^5.1.7",
+    "msnodesqlv8": "^5.1.8",
     "sequelize": "^6.37.8"
   },
   "devDependencies": {
